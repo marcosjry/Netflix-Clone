@@ -1,0 +1,34 @@
+@media screen and (max-width:750px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ContainerNav {
+        justify-content: center;
+        padding-top: 5px;
+    }
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    .ContainerNav {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        width: 70%;
+    }
+}
